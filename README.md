@@ -38,20 +38,15 @@ A professional enumeration and reconnaissance tool designed for penetration test
 ### Quick Installation
 ```bash
 # Clone or download the script
-wget https://raw.githubusercontent.com/yourusername/htb-scanner/main/htb_scanner.py
+wget https://raw.githubusercontent.com/UltGithub/htb-scanner/main/htb-scanner.py
+# Or via git clone
+git clone https://github.com/UltGithub/htb-scanner.git
 
 # Make executable
 chmod +x htb_scanner.py
 
 # Install system-wide (optional)
 sudo ./htb_scanner.py --install
-```
-
-### Manual Installation
-```bash
-git clone https://github.com/yourusername/htb-scanner.git
-cd htb-scanner
-pip install -r requirements.txt  # If requirements file exists
 ```
 
 ## 🎯 Usage
